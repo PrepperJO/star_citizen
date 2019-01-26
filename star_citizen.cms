@@ -1,0 +1,141 @@
+// CMS Script File
+//
+//     Game Title: Star Citizen
+//     Written By: PrepperBro
+//           Date: 26.01.2019
+//
+script
+
+/////////////////
+// Menu
+////////////////
+
+Pause_Options           ESC
+Console                 `
+Mobiglass_Scoreboard    F1
+Starmap                 F2
+Cameraview_Mode         F3
+Cycle_Camera_View       F4
+
+FreeLook                z
+Look_Behind             HOLD  LALT  z
+Look_Ahead              HOLD  LALT  m
+
+Cycle_Mouse_Move_Mode   HOLD  LALT  ,
+Cycle_Mouse_Aim_Mode    RSHF
+Yaw_Roll_Swap           HOLD  LALT  .
+
+Eject                   HOLD  LALT  l
+
+Interaction_Mode        f
+Exit_Seat               HOLD  LALT  f
+Self_Destruct           HOLD  LALT  BKSPC
+
+2D_UI_Cursor            RALT
+
+
+
+////////////////
+// Flight
+////////////////
+
+// Power Management
+
+Increase_Weapon_Power   F5
+Increase_Shield_Power   F6
+Increase_Avionic_Power  F7
+Reset_Power             F8
+
+Decrease_Cooler_Rage    HOLD  LALT  KP7
+Increase_Cooler_Rage    HOLD  LALT  KP8
+
+Decrease_Power          HOLD  LALT  KP4
+Increase_Power          HOLD  LALT  KP5
+
+Shield_Raise_Top        KP7
+Shield_Raise_Front      KP8
+Shield_Raise_Bottom     KP9
+Shield_Raise_Left       KP4
+Shield_Reset            KP5
+Shield_Raise_Right      KP6
+Shield_Raise_Back       KP2
+
+
+
+
+// Flight Systems
+
+Cycle_CM                1
+Cycle_IFCS_Safeties     2
+Lights_on_off           3
+Engines_on_off          4
+Power_on_off            5
+Shields_on_off          6
+Weapon_Groups_on_off    7
+Flight_Ready            8
+Open_Close_Doors        9
+Lock_Unlock_Doors       0
+
+Scan_Mode               TAB
+Launch_CM               g
+Spacebrake              c
+Boost_Respawn           x
+
+// Weapon Modes
+Gimbal_Lock            HOLD  LALT  j
+Reticle_Mode           HOLD  LALT  k
+ESP_Toogle             HOLD  LALT  o
+
+
+// Controls
+Roll_Left              q
+Roll_Right             e
+Strafe_Left            a
+Strafe_Right           d
+Strafe_Forward         HOLD  LALT  w
+Strafe_Back            HOLD  LALT  s
+Strafe_Down            LCTL
+Strafe_Up              SPC
+Throttle_Up            w
+Throttle_Down          s
+Afterburner            LSHF
+
+
+Decoupled_Mode         v
+Engage_QT              b
+Landing_Mode           n
+Mining_Mode            -
+
+
+// Targeting
+Target_Focus           HOLD  LALT  r
+Target_Nearest_Hostile t
+Cycle_Hostile          y
+Cycle_Hostile_back     h
+Cycle_Friendly         u
+Cycle_Friendly_back    j
+Cycle_All              i
+Cycle_All_back         k
+Cycle_Pinned           o
+Reticle_Focus          r
+Pin_Target             p
+
+Radar_Cycle            ,
+PIB                    .
+
+
+
+
+////////////////
+// Ground
+////////////////
+
+
+
+////////////////
+// First Person
+////////////////
+
+
+
+endScript
